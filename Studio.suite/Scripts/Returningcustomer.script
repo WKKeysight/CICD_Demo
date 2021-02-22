@@ -1,0 +1,3 @@
+﻿to registeraccount
+	click "RegisterAccount"
+end registeraccount

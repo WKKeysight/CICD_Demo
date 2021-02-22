@@ -1,0 +1,17 @@
+﻿to back
+	click "back"
+end back
+
+to checkout
+	moveto "checkout"
+	wait 1
+	click foundimagelocation()
+	WaitFor 10, "YourShoppingBasket"
+	
+end checkout
+
+to home
+	click "studio"
+	wait 3
+	WaitFor 10, "studiocouk"
+end home

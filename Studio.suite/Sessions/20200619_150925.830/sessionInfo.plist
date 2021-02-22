@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adaptiveConstant</key>
+	<integer>7</integer>
+	<key>commandList</key>
+	<string>[{captureRect:[968.831361, 152.694451, 1046.831361, 169.694451], elementName:"EmailEntry", eventNum:2, folderPath:"", hotSpot:[1003.831361, 921.305549], imageName:"EmailEntry", itemEvent:"TurboListItemEvent_Click", itemMode:"TurboListItemMode_Existing", itemType:"TurboListItemType_Image", screenShotFile:"Screen0002.png", searchType:"Smoothed for Text", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:3}, {captureRect:[0, 0, 0, 0], elementName:"UNKNOWN", eventNum:4, folderPath:"", imageName:"", itemEvent:"TurboListItemEvent_TypeText", itemMode:"TurboListItemMode_New", itemType:"TurboListItemType_TypeText", screenShotFile:"Screen0004.png", skipStep:False, text:@"\"maxgerrard@me.com\"", userModified:False, usingTempImageName:True, waitForTime:-1}, {captureRect:[1206.184911, 155.910628, 1270.184911, 168.910628], elementName:"Subscribe", eventNum:40, folderPath:"", hotSpot:[1235.184911, 916.089372], imageName:"Subscribe", itemEvent:"TurboListItemEvent_Click", itemMode:"TurboListItemMode_Existing", itemType:"TurboListItemType_Image", OCRText:"Subscribe", screenShotFile:"Screen0040.png", searchType:"Smoothed for Text", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}]</string>
+	<key>dilations</key>
+	<integer>3</integer>
+	<key>maxSize</key>
+	<integer>300</integer>
+	<key>minSize</key>
+	<integer>16</integer>
+	<key>savedWithEpfVersion</key>
+	<integer>2004021851</integer>
+	<key>sessionType</key>
+	<string>turboSession</string>
+	<key>sessionUsesDOMObjects</key>
+	<false/>
+</dict>
+</plist>

@@ -1,0 +1,40 @@
+{
+  "ocrcapturestring" : "□",
+  "originalcapturelocation" : [
+    3,
+    1015,
+    40,
+    32
+  ],
+  "createddate" : 1610368058.531729,
+  "lastmodifieddate" : 1610368058.5317302,
+  "name" : "WindowsLogo\/WindowsLogo_10_new_1",
+  "testlocationdata" : [
+    {
+      "name" : "WindowsLogo\/WindowsLogo_10_new_1.png",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Windows_10_VM_My_local",
+      "connectionportnum" : 5900,
+      "capturedocrtext" : "□",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[20,16]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "10.211.55.4",
+      "capturerect" : [
+        3,
+        1015,
+        40,
+        32
+      ]
+    }
+  ]
+}

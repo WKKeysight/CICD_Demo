@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adaptiveConstant</key>
+	<integer>7</integer>
+	<key>commandList</key>
+	<string>[{captureRect:[944, 8, 968, 32], elementName:"Chrome12", eventNum:2, folderPath:"", hotSpot:[953.382838, 1052.594604], imageName:"Chrome12", itemEvent:"TurboListItemEvent_Click", itemMode:"TurboListItemMode_Existing", itemType:"TurboListItemType_Image", screenShotFile:"Screen0002.png", searchType:"Tolerant of Background", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[106.049505, 1013, 309.049505, 1044], elementName:"SearchBar", eventNum:4, folderPath:"", hotSpot:[160.049505, 49.166565], imageName:"SearchBar", itemEvent:"TurboListItemEvent_Click", itemMode:"TurboListItemMode_Existing", itemType:"TurboListItemType_Image", screenShotFile:"Screen0004.png", searchType:"Tolerant of Background", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[0, 0, 0, 0], elementName:"UNKNOWN", eventNum:6, folderPath:"", imageName:"", itemEvent:"TurboListItemEvent_TypeText", itemMode:"TurboListItemMode_New", itemType:"TurboListItemType_TypeText", screenShotFile:"Screen0006.png", skipStep:False, text:@"\"www.bbc.co.uk\",Return", userModified:False, usingTempImageName:True, waitForTime:-1}, {captureRect:[493, 945, 519, 969], elementName:"BBCLogo_Demo", eventNum:34, folderPath:"", hotSpot:[498.828383, 116.526489], imageName:"BBCLogo_Demo", itemEvent:"TurboListItemEvent_Click", itemMode:"TurboListItemMode_Existing", itemType:"TurboListItemType_Image", screenShotFile:"Screen0034.png", searchType:"Tolerant of Background", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:8}]</string>
+	<key>dilations</key>
+	<integer>3</integer>
+	<key>maxSize</key>
+	<integer>300</integer>
+	<key>minSize</key>
+	<integer>16</integer>
+	<key>savedWithEpfVersion</key>
+	<integer>2004021851</integer>
+	<key>sessionType</key>
+	<string>turboSession</string>
+	<key>sessionUsesDOMObjects</key>
+	<false/>
+</dict>
+</plist>

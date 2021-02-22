@@ -1,0 +1,20 @@
+﻿{
+    CaptureDate = "2019-12-04 12:13:09 +0000";
+    CaptureHost = "Windows SUT";
+    CaptureScreenSize =     (
+        1440,
+        900
+    );
+    HasAlpha = 0;
+    HotSpotX = 10;
+    HotSpotY = 12;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 11;
+    OriginalLocationY = 41;
+    Precise = 1;
+    Pulsing = 0;
+    Scale = 1;
+    tags =     (
+    );
+}

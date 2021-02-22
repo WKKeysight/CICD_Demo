@@ -1,0 +1,52 @@
+﻿//Speed that normal user may type
+
+to fast TextToType
+	wait 0.5
+	put the keyDownDelay into KDD
+	put the nextKeyDelay into NKD
+	set the KeyDownDelay to 0.01
+	set the NextKeyDelay to 0.01
+	typetext TextToType
+	set the keyDownDelay to KDD
+	set the NextKeyDelay to NKD
+end fast
+
+to Normal TextToType
+	wait 0.5
+	put the keyDownDelay into KDD
+	put the nextKeyDelay into NKD
+	set the KeyDownDelay to 0.1
+	set the NextKeyDelay to 0.1
+	typetext TextToType
+	set the keyDownDelay to KDD
+	set the NextKeyDelay to NKD
+end Normal
+
+//Slow speed for fields where you cannot type to fast, for example when there is a query each time a keystroke is sent
+to slow TextToType
+	wait 0.5
+	put the keyDownDelay into KDD
+	put the nextKeyDelay into NKD
+	set the KeyDownDelay to 0.1
+	set the NextKeyDelay to 0.3
+	typetext TextToType
+	set the keyDownDelay to KDD
+	set the NextKeyDelay to NKD
+end slow
+
+//For where you are not worried about typing each character and for long strings, like URLs. Can also be used if you want to speed your test execution up.
+to Paste TextToPaste
+	wait 0.5
+	set the remoteclipboard to TextToPaste
+	Set the scriptlogging to Silent
+	put the keyDownDelay into KDD
+	put the nextKeyDelay into NKD
+	set the KeyDownDelay to 0.1
+	set the NextKeyDelay to 0.1
+	Set the scriptlogging to On
+	typetext controlkey,"v"
+	Set the scriptlogging to Silent
+	set the keyDownDelay to KDD
+	set the NextKeyDelay to NKD
+	Set the scriptlogging to On
+end Paste

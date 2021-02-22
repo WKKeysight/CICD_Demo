@@ -1,0 +1,11 @@
+﻿(* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+  Script generated:  2020-06-30 09:34:17
+  From session:  szcs
+  Captured on:  2020-06-30 09:33:31
+  From server:  Windows_10
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *)
+
+Click "Chrome12"
+Click "SearchBar"
+TypeText "www.bbc.co.uk",Return
+Click (Image:"BBCLogo_Demo", WaitFor:8)

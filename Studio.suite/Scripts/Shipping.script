@@ -1,0 +1,16 @@
+﻿to shippingcont
+	click "continue"
+	WaitFor 8, "ChoosePaymentMethod"
+	
+end shippingcont
+
+to shopnow
+	click "PayNow"
+	WaitFor 10, "PayNow_selected"
+	wait 1
+	click "ShopNow"
+	WaitFor 10, "ReviewYourOrder"
+	
+	
+end shopnow
+

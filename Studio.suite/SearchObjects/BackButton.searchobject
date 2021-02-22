@@ -1,0 +1,40 @@
+{
+  "ocrcapturestring" : "Back",
+  "originalcapturelocation" : [
+    467,
+    140,
+    48,
+    28
+  ],
+  "createddate" : 1607248019.7142649,
+  "lastmodifieddate" : 1607248019.7142649,
+  "name" : "BackButton",
+  "testlocationdata" : [
+    {
+      "name" : "BackButton.png",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Windows_10_VM_My_local",
+      "connectionportnum" : 5900,
+      "capturedocrtext" : "Back",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Adaptive to Image",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_30",
+        "HotSpot" : "[24,14]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "192.168.143.133",
+      "capturerect" : [
+        467,
+        140,
+        48,
+        28
+      ]
+    }
+  ]
+}

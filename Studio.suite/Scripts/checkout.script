@@ -1,0 +1,11 @@
+﻿to checkoutcontinue Loggedin
+	click "ContinueCheckout"
+	If Loggedin = true then
+		WaitFor 10, "confirm_delivery"
+		
+	Else
+		WaitFor 10, "ReturningCustomer"
+		
+	End if
+	
+end checkoutcontinue

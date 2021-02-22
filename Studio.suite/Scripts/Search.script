@@ -1,0 +1,54 @@
+﻿to selectitem
+	moveto "click_item"
+	wait 1
+	click foundimagelocation()
+	WaitFor 10, "back_item"
+end selectitem
+
+to addbasket NumberOfItemsInBasket
+
+	if imagefound (0, "CloseXGrey")
+		click foundimagelocation()
+		wait 1
+	end if
+	
+	Repeat until ImageFound("AddtoBasket")
+		ScrollWheelDown 5
+		if the repeatIndex is greater than 5
+		then
+			LogError "Cannot add to basket"
+			exit repeat 
+		else
+			
+		end if
+		
+		
+		
+	End repeat
+	click "AddtoBasket"
+	If ImageFound(imageName:"closex", waitFor:10) then
+		wait 2
+		click"closex"
+		wait 2
+		MoveTo (21,247)
+	Else
+		
+	End if
+	
+	add 1 to NumberOfItemsInBasket
+	return NumberOfItemsInBasket
+	
+end addbasket
+
+to selectsize
+	--ScrollWheelDown 5
+	set the SearchRectangle to ("TL_selectsize","BR_selectsize")
+	click "select_Size"
+	WaitFor 10, "InStock"
+	click "InStock"
+	wait 3
+	set the SearchRectangle to fullscreen
+	
+end selectsize
+
+

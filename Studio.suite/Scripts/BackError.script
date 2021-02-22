@@ -1,0 +1,8 @@
+﻿wait 3
+repeat until imagefound (0, "Search")
+	click "BackButton"
+	wait 3
+	if repeatindex() > 4
+		exit repeat
+	end if
+end repeat

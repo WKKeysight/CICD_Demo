@@ -1,0 +1,10 @@
+(* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+  Script generated:  2020-06-19 15:10:12
+  From session:  Subscribe
+  Captured on:  2020-06-19 15:09:25
+  From server:  Windows_10_VM
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *)
+
+Click (Image:"EmailEntry", WaitFor:3)
+TypeText "maxgerrard@me.com"
+Click "Subscribe"

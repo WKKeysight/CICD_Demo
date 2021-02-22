@@ -1,0 +1,46 @@
+{
+  "lastmodifieddate" : 1612177816.2508841,
+  "testlocationdata" : [
+    {
+      "name" : "Refresh\/Refresh.png",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "Windows_10_VM_My_local_RDP",
+      "connectionportnum" : 3389,
+      "connectiontype" : "RDP",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "  0.5",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_58",
+        "HotSpot" : "[6,6]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "10.211.55.4",
+      "capturerect" : [
+        73,
+        36,
+        13,
+        12
+      ]
+    }
+  ],
+  "createddate" : 1612177816.2508841,
+  "lastfoundlocation" : [
+    51,
+    45,
+    13,
+    12
+  ],
+  "originalcapturelocation" : [
+    73,
+    36,
+    13,
+    12
+  ],
+  "lastfounddate" : 1613911950.1638021,
+  "name" : "Refresh\/Refresh"
+}

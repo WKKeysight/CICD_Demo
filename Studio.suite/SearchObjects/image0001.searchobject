@@ -1,0 +1,34 @@
+{
+  "ocrcapturestring" : "Co To Homepage",
+  "originalcapturelocation" : [
+    945,
+    596,
+    167,
+    37
+  ],
+  "createddate" : 1608129515.5470119,
+  "lastmodifieddate" : 1608129515.5470119,
+  "name" : "image0001",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        945,
+        596,
+        167,
+        37
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[69,13]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "capturedocrtext" : "Co To Homepage",
+      "name" : "image0001.png",
+      "type" : 1
+    }
+  ]
+}

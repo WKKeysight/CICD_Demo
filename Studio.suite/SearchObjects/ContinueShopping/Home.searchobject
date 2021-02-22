@@ -1,0 +1,47 @@
+{
+  "lastmodifieddate" : 1607248893.775223,
+  "ocrcapturestring" : "Home",
+  "testlocationdata" : [
+    {
+      "name" : "ContinueShopping\/Home.png",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Windows_10_VM_My_local",
+      "connectionportnum" : 5900,
+      "capturedocrtext" : "Home",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_65",
+        "HotSpot" : "[22,12]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "192.168.143.133",
+      "capturerect" : [
+        541,
+        351,
+        44,
+        24
+      ]
+    }
+  ],
+  "createddate" : 1607248893.775223,
+  "lastfoundlocation" : [
+    381,
+    331,
+    44,
+    24
+  ],
+  "originalcapturelocation" : [
+    541,
+    351,
+    44,
+    24
+  ],
+  "lastfounddate" : 1612188679.757195,
+  "name" : "ContinueShopping\/Home"
+}

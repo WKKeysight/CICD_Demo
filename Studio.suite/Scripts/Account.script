@@ -1,0 +1,23 @@
+to yourdetails
+	click text:"your details"
+	WaitFor 5, "ChangeMyPersonalDetails"
+	
+end yourdetails
+
+to yourorders
+	click text:"your orders"
+	WaitFor 5, "RecentOrders"
+	
+end yourorders
+
+to vieworders
+	click "InvoiceNumber"
+	WaitFor 8, "Invoice"
+	
+end vieworders
+
+to changeaddress
+	click "ChangeDeliveryAddress"
+	WaitFor 10, "EditAddress"
+	
+end changeaddress

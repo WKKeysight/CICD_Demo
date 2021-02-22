@@ -1,0 +1,22 @@
+﻿{
+    CaptureDate = "2019-11-28 14:26:52 +0000";
+    CaptureHost = "Windows SUT";
+    CaptureScreenSize =     (
+        1440,
+        900
+    );
+    HasAlpha = 1;
+    HotSpotX = 160;
+    HotSpotY = 14;
+    ImageDescription = {length = 0, bytes = 0x};
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 237;
+    OriginalLocationY = 270;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchAlgorithm = Adaptive;
+    tags =     (
+    );
+}

@@ -1,0 +1,21 @@
+﻿{
+    CaptureDate = "2020-12-06 10:00:36 +0000";
+    CaptureHost = "Windows_10_VM_My_local";
+    CaptureScreenSize =     (
+        1920,
+        1080
+    );
+    HasAlpha = 0;
+    HotSpotX = 94;
+    HotSpotY = 14;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 242;
+    OriginalLocationY = 740;
+    Precise = 1;
+    Pulsing = 0;
+    Scale = 1;
+    SearchObjectName = "ContinueShopping/ContinueShopping_new";
+    tags =     (
+    );
+}

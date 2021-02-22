@@ -1,0 +1,34 @@
+﻿to remove NumberOfItemsInBasket
+	click"remove"
+	waitfor 8,"removed_conf"
+	subtract 1 from  NumberOfItemsInBasket
+	return NumberOfItemsInBasket
+end remove
+
+to continueshop
+	click "ContinueShopping"
+	wait 1
+	waitfor 20, "Refresh"
+	
+end continueshop
+
+to continuecheckout loggedin
+	click "ContinueCheckout"
+	wait 1
+	If loggedin = true then
+		WaitFor 10, "YourDeliveryAddress"
+		
+	Else
+		waitfor 20, "refresh"
+		if not imagefound (0, "email")
+			click "SignIn"
+		end if
+		
+		WaitFor 10, "ReturningCustomer"
+		click "SignIn"
+		WaitFor 8, "email"
+		
+	End if
+	
+end continuecheckout
+

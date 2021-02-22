@@ -1,0 +1,14 @@
+﻿Click "ContinueShopping/Home"
+connect "Windows_10_VM_My_local_RDP"
+show remote
+moveto (1,200)
+waitfor 30, "WindowsLogo"
+typetext windowskey,"r"
+typetext "chrome www.studio.co.uk -incognito",returnkey
+waitfor 20, "Refresh"
+if imagefound (0, "Maximise")
+	click foundimagelocation()
+	waitfor 20, "Minimise"
+end if
+WaitFor 20, "studio"
+

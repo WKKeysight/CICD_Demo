@@ -1,0 +1,122 @@
+﻿to open Browser
+	//Opening in incognito mode removes the need to clear cache befoer a test as no cookies, browsing history or site data is saved.
+	--	connect "Windows_10"
+	connect "Windows_10_VM_My_local_RDP"
+	show remote
+	waitfor 20, "WindowsLogo"
+	put {iexplore:"C:\Program Files\Internet Explorer\iexplore.exe -private", chrome:"C:\Program Files\Google\Chrome\Application\chrome.exe --incognito --start-maximized", firefox: "firefox -private-window"} into OpenAddress  
+	//The below code is to reduce the speed at which eggPlant types the keys. For quite a few applicaitons the defaults are too quick.
+	Set the scriptlogging to Silent
+	put the keyDownDelay into KDD
+	put the nextKeyDelay into NKD
+	set the nextKeyDelay to 0.1
+	set the keyDownDelay to 0.1
+	Set the scriptlogging to On 
+	typetext windowsKey, "r"
+	WaitFor 30.0, "RunWindowLogo"
+	EnterData.Paste OpenAddress.(Browser) && "www.studio.co.uk"
+	typetext return
+	//Reset to defaults
+	Set the scriptlogging to Silent
+	set the KeyDownDelay to KDD
+	set the nextKeyDelay to NKD
+	Set the scriptlogging to On
+	wait 1
+	//Confirm the browser opens by waiting for the refresh icon.
+	moveto (1,300)
+	waitfor 20, "Refresh"
+	if imagefound (0, "Maximise")
+		click foundimagelocation()
+		waitfor 20, "Minimise"
+	end if
+	WaitFor 20, "studio"
+	
+end open
+
+
+to ClearCache
+	//Add code here for other browsers if needed.
+	if global Browser = "iexplore"  
+		ClickImage (10,300)
+		typetext controlkey,shiftkey,deletekey
+		waitfor 40, "IE_Delete"
+		ClickImage foundimagelocation()
+		waitfor 40, "IE_CloseCross_Popup"
+		ClickImage foundimagelocation()
+		wait 3
+	end if
+end ClearCache
+
+to Close
+	//Closing a browser using task kill is the most effective way, as you dont need to worry about how many windows to close, they are all closed in one go.
+	put (iexplore: "taskkill /F /IM iexplore.exe /T", firefox: "taskkill /F /IM firefox.exe /T", chrome: "taskkill /F /IM chrome.exe /T") into BrowserKill  
+	Set the scriptlogging to Silent
+	put the keyDownDelay into KDD
+	put the nextKeyDelay into NKD
+	set the nextKeyDelay to 0.1
+	set the keyDownDelay to 0.1
+	Set the scriptlogging to On
+	typetext windowsKey, "r"
+	WaitFor 30.0, "RunWindow_logo"
+	EnterData.Paste BrowserKill.(global Browser)
+	typetext return
+	Set the scriptlogging to Silent
+	set the KeyDownDelay to KDD
+	set the nextKeyDelay to NKD
+	Set the scriptlogging to On
+	wait 2
+end Close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+to maximise
+	if imagefound (0, "Maximise")
+		click foundimagelocation()
+		//wait 1
+		waitfor 30, "Minimise"
+	end if
+end maximise
+
+to minimise
+	if imagefound (0, "Minimise")
+		click foundimagelocation()
+		//wait 1
+		waitfor 30, "Maximise"
+	end if
+end minimise
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

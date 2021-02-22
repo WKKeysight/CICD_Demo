@@ -1,0 +1,1 @@
+https://cuj.real-user-data.eggplant.cloud/TrimmedCommonUserJourneys/partitionTenancyId=dd78f4f1-03df-4adb-b373-41502ac83c2f/partitionJobPeriod=7/partitionJobDate=1600751400572/partitionJobNumber=1712/part-00000-1067a412-ac87-46ae-aa4c-222f0d5ff3dd-c000.snappy.parquet

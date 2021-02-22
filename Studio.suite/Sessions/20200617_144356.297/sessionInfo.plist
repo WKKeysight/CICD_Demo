@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adaptiveConstant</key>
+	<integer>7</integer>
+	<key>commandList</key>
+	<string>[{captureRect:[699, 8, 723, 33], elementName:"Chrome", eventNum:2, folderPath:"", hotSpot:[712.474519, 1061.537663], imageName:"Chrome", itemEvent:"TurboListItemEvent_Click", itemMode:"TurboListItemMode_Replace", itemType:"TurboListItemType_Image", screenShotFile:"Screen0002.png", searchType:"Tolerant of Background", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[176.518686, 1021.179766, 216.518686, 1035.179766], elementName:"blank", eventNum:4, folderPath:"", hotSpot:[199.518686, 50.820234], imageName:"blank", itemEvent:"TurboListItemEvent_DoubleClick", itemMode:"TurboListItemMode_Existing", itemType:"TurboListItemType_Image", OCRText:":blank", screenShotFile:"Screen0004.png", searchType:"Smoothed for Text", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[0, 0, 0, 0], elementName:"UNKNOWN", eventNum:8, folderPath:"", imageName:"", itemEvent:"TurboListItemEvent_TypeText", itemMode:"TurboListItemMode_New", itemType:"TurboListItemType_TypeText", screenShotFile:"Screen0008.png", skipStep:False, text:@"\"www.bbc.co.uk\",Return", userModified:False, usingTempImageName:True, waitForTime:-1}, {captureRect:[498.500566, 978.712148, 514.500566, 999.712148], elementName:"BBC", eventNum:36, folderPath:"", hotSpot:[506.500566, 93.287852], imageName:"BBC", itemEvent:"TurboListItemEvent_Click", itemMode:"TurboListItemMode_Existing", itemType:"TurboListItemType_Image", screenShotFile:"Screen0036.png", searchType:"Smoothed for Text", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[1890, 1058, 1906, 1074], elementName:"Close", eventNum:38, folderPath:"", hotSpot:[1901.347678, 9.532508], imageName:"Close", itemEvent:"TurboListItemEvent_Click", itemMode:"TurboListItemMode_Existing", itemType:"TurboListItemType_Image", screenShotFile:"Screen0038.png", searchType:"Tolerant of Background", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}]</string>
+	<key>dilations</key>
+	<integer>3</integer>
+	<key>maxSize</key>
+	<integer>300</integer>
+	<key>minSize</key>
+	<integer>16</integer>
+	<key>savedWithEpfVersion</key>
+	<integer>2004021851</integer>
+	<key>sessionType</key>
+	<string>turboSession</string>
+	<key>sessionUsesDOMObjects</key>
+	<false/>
+</dict>
+</plist>

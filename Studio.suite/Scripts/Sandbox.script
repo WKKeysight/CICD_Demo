@@ -1,0 +1,3 @@
+﻿browser.open "iexplore"
+
+put shell ("ifconfig")

@@ -1,0 +1,29 @@
+﻿to basket
+	moveto "Bag"
+	wait 1
+	click foundimagelocation()
+	WaitFor 7, "YourShoppingBasket"
+	
+end basket
+
+to myaccount loggedin
+	click text:"my account"
+	if loggedin equals "true" then
+		log "fill out later"		
+	Else
+		WaitFor 10, "ReturningCustomer"
+		
+	End if
+	
+	wait 1
+	
+end myaccount
+
+to search searchterm
+	--set searchterm to "jumper dress"
+	click "search"
+	typetext searchterm,returnkey
+	WaitFor 15, "SortBy"
+	
+end search
+

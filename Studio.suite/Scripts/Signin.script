@@ -1,0 +1,46 @@
+﻿to email
+	waitfor 20, "refresh"
+	if not imagefound (0, "email")
+		click "SignIn"
+	end if
+	waitfor 20, "Email"
+	click "email"
+	wait 0.5
+	typetext controlkey,"a"
+	typetext "maxgerrard@me.com"
+end email
+
+to password
+	waitfor 20, "refresh"
+	if not imagefound (0, "email")
+		click "SignIn"
+	end if
+	waitfor 20, "Password"
+	click "Password"
+	wait 0.5
+	typetext controlkey,"a"
+	typetext "3ggPl4nt"
+end password
+
+to login
+	//Click "RobotBox"
+	click "SignIn"
+	wait 2
+	if imagefound (0, "CloseXGrey")
+		click foundimagelocation()
+		wait 1
+	end if
+	if imagefound (3, "No Thanks")
+		click foundimagelocation()
+	end if
+	WaitFor 8, "WelcomebackMax"
+	wait 1
+	if imagefound (0, "CloseXGrey")
+		click foundimagelocation()
+		wait 1
+	end if
+	
+	
+	
+	
+end login

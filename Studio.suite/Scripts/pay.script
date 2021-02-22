@@ -1,0 +1,11 @@
+﻿to payfinal
+	click "PayNow_green"
+	WaitFor 10, "Paysafe"
+	
+end payfinal
+
+to editadd
+	click "EditAddress_1"
+	WaitFor 8, "ChangeMyPersonalDetails"
+	
+end editadd

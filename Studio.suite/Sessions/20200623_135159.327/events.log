@@ -1,0 +1,42 @@
+1	0.00479805	start	
+2	2.77492	mouseDown	{button:1, clickCount:1, hotSpot:[997.98577, 948.175087]}
+3	2.87679	mouseUp	{button:1, clickCount:1, hotSpot:[997.98577, 948.175087]}
+4	4.74311	keyDown	{modifiers:256, string:"m", theKey:"m"}
+5	4.82351	keyDown	{modifiers:256, string:"a", theKey:"a"}
+6	4.82486	keyUp	{modifiers:256, string:"m", theKey:"m"}
+7	4.88486	keyUp	{modifiers:256, string:"a", theKey:"a"}
+8	4.95545	keyDown	{modifiers:256, string:"x", theKey:"x"}
+9	5.02845	keyUp	{modifiers:256, string:"x", theKey:"x"}
+10	5.19387	keyDown	{modifiers:256, string:"g", theKey:"g"}
+11	5.29848	keyUp	{modifiers:256, string:"g", theKey:"g"}
+12	5.31503	keyDown	{modifiers:256, string:"e", theKey:"e"}
+13	5.39334	keyUp	{modifiers:256, string:"e", theKey:"e"}
+14	5.44487	keyDown	{modifiers:256, string:"r", theKey:"r"}
+15	5.52093	keyUp	{modifiers:256, string:"r", theKey:"r"}
+16	5.58469	keyDown	{modifiers:256, string:"r", theKey:"r"}
+17	5.67638	keyUp	{modifiers:256, string:"r", theKey:"r"}
+18	5.6852	keyDown	{modifiers:256, string:"a", theKey:"a"}
+19	5.7651	keyUp	{modifiers:256, string:"a", theKey:"a"}
+20	5.79338	keyDown	{modifiers:256, string:"r", theKey:"r"}
+21	5.87975	keyUp	{modifiers:256, string:"r", theKey:"r"}
+22	5.89865	keyDown	{modifiers:256, string:"d", theKey:"d"}
+23	5.95299	keyUp	{modifiers:256, string:"d", theKey:"d"}
+24	6.11096	flagsChanged	131330
+25	6.26611	keyDown	{modifiers:131330, string:"@", theKey:"@"}
+26	6.3315	keyUp	{modifiers:131330, string:"@", theKey:"@"}
+27	6.36981	flagsChanged	256
+28	6.49878	keyDown	{modifiers:256, string:"m", theKey:"m"}
+29	6.58348	keyDown	{modifiers:256, string:"e", theKey:"e"}
+30	6.58438	keyUp	{modifiers:256, string:"m", theKey:"m"}
+31	6.65482	keyUp	{modifiers:256, string:"e", theKey:"e"}
+32	6.72505	keyDown	{modifiers:256, string:".", theKey:"."}
+33	6.79789	keyDown	{modifiers:256, string:"c", theKey:"c"}
+34	6.81792	keyUp	{modifiers:256, string:".", theKey:"."}
+35	6.87293	keyUp	{modifiers:256, string:"c", theKey:"c"}
+36	6.91484	keyDown	{modifiers:256, string:"o", theKey:"o"}
+37	6.99916	keyUp	{modifiers:256, string:"o", theKey:"o"}
+38	7.11274	keyDown	{modifiers:256, string:"m", theKey:"m"}
+39	7.19852	keyUp	{modifiers:256, string:"m", theKey:"m"}
+40	8.58328	mouseDown	{button:1, clickCount:1, hotSpot:[1227.622669, 953.738839]}
+41	8.70161	mouseUp	{button:1, clickCount:1, hotSpot:[1227.622669, 953.738839]}
+42	13.5421	end	

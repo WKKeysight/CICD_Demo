@@ -1,0 +1,34 @@
+{
+  "ocrcapturestring" : "Checkout",
+  "originalcapturelocation" : [
+    1453,
+    165,
+    73,
+    14
+  ],
+  "createddate" : 1608129513.5833149,
+  "lastmodifieddate" : 1608129513.5833149,
+  "name" : "Checkout_0001",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        1453,
+        165,
+        73,
+        14
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_73",
+        "HotSpot" : "[24,6]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "capturedocrtext" : "Checkout",
+      "name" : "Checkout_0001.png",
+      "type" : 1
+    }
+  ]
+}

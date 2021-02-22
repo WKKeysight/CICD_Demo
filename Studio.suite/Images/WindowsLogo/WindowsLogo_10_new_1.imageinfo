@@ -1,0 +1,19 @@
+﻿{
+    CaptureDate = "2021-01-11 12:27:37 +0000";
+    CaptureHost = "Windows_10_VM_My_local";
+    CaptureScreenSize =     (
+        1650,
+        1050
+    );
+    HasAlpha = 1;
+    HotSpotX = 20;
+    HotSpotY = 16;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 3;
+    OriginalLocationY = 1015;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchObjectName = "WindowsLogo/WindowsLogo_10_new_1";
+}

@@ -1,0 +1,21 @@
+﻿{
+    CaptureDate = "2019-12-06 15:51:37 +0000";
+    CaptureHost = "Windows_10";
+    CaptureScreenSize =     (
+        1920,
+        1080
+    );
+    HasAlpha = 1;
+    HotSpotX = 56;
+    HotSpotY = 11;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 782;
+    OriginalLocationY = 868;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchAlgorithm = TextSmoothSquare;
+    tags =     (
+    );
+}
